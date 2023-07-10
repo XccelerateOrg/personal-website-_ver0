@@ -1,6 +1,6 @@
 function runTypingEffect() {
   const text =
-    " <!DOCTYPE html><html><title> The truth is I am just a travel agency </title></head><body> ";
+    " <!DOCTYPE html><html><title> The truth is that I am just a travel agency </title></head><body> ";
   const typingElement = document.getElementById("p1");
   const typingDelay = 100; // Delay between each character (in milliseconds)
 

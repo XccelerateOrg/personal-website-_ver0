@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="styles.css" />
     <link href="path/to/lightbox.css" rel="stylesheet" />
     <link href="lightbox/lightbox.min.css" rel="stylesheet" />
+    <link href="/lightbox/src/css/lightbox.css" rel="stylesheet" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    /> -->
   </head>
 
   <body id="home">
@@ -29,7 +36,10 @@
       <div class="content">
         <h1>Welcome to my Website</h1>
         <p>I am not a front end web developer</p>
-        <a href="#about" class="btn">No More</a>
+        <!-- <a href="#about" class="btn">No More</a> -->
+        <button id="but" href="#about" type="button" class="btn">
+          Press to know more
+        </button>
       </div>
     </header>
     <!-- Main -->
@@ -95,8 +105,8 @@
       <header>My Portfolio</header>
       <div class="row">
         <div class="column">
-          <a hef="/img/1.jpg" data-lightbox>
-            <img src="/img/1.jpg" />
+          <a hef="/img/1.jpg" data-lightbox="image">
+            <img id="image" src="/img/1.jpg" />
           </a>
           <a hef="/img/2.jpg" data-lightbox>
             <img src="/img/2.jpg" />
@@ -119,16 +129,17 @@
     <!-- footer -->
     <footer id="contact" class="footer">
       <div class="contact">
-        <a hef="https://www.facebook.com/BLACKPINKOFFICIAL/"
+        <a href="https://www.facebook.com/BLACKPINKOFFICIAL/"
           ><i class="fab fa-facebook"></i
         ></a>
-        <a hef="https://www.instagram.com/?hl=en"
+        <a href="https://www.instagram.com/?hl=en"
           ><i class="fab fa-instagram"></i
         ></a>
-        <a hef="https://github.com/"><i class="fab fa-github"></i></a>
-        <a hef="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://github.com/"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
       </div>
       <p>No copy right since 1995</p>
+      <p>Disclaim:All pics and photos are not owned by me.</p>
     </footer>
     <script
       src="https://kit.fontawesome.com/21f76f6eeb.js"
@@ -137,5 +148,11 @@
     <script src="path/to/lightbox.js"></script>
     <script src="/javascript.js"></script>
     <script src="lightbox/lightbox.min.js"></script>
+    <script src="/lightbox/src/js/lightbox.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
